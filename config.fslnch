@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><application>
+	<source-url>https://prod.cms.d2cfarm.com/start/FIRSTspirit.jnlp?app=client&amp;locale=en&amp;projectId=5284045&amp;login.ticket=5y4og1p50lcp</source-url>
+	<type>de.espirit.firstspirit.server.application.SiteArchitectApplicationPlugin</type>
+	<title>FirstSpirit SiteArchitect (a.krukowski@insignia.pl@prod.cms.d2cfarm.com)</title>
+	<version>5.2.191208.78763</version>
+	<release-name>2019-12</release-name>
+	<description>
+		<name>FirstSpirit SiteArchitect</name>
+		<user>a.krukowski@insignia.pl</user>
+		<project>MBMD Siemens B2C (PL)</project>
+		<server>prod.cms.d2cfarm.com</server>
+	</description>
+	<plugins>
+		<primary>
+			<plugin>
+				<type>de.espirit.firstspirit.server.application.ContentCreatorApplicationPlugin</type>
+				<label>ContentCreator</label>
+				<description>Editing environment</description>
+				<url>https://prod.cms.d2cfarm.com/jump?url=%2Ffs5webedit%2F%3Flocale%3Den</url>
+				<icon-dark>
+					<url>https://prod.cms.d2cfarm.com/img/content-creator.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQjYxNjY4O30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTUwLjEsMjAuOUwyNS41LDQ1LjRsLTIuMyw4LjlsLTAuMSwwLjFsMCwwbDAsMGwwLjEtMC4xbDkuNS0xLjdMNTcuMiwyOEM2MCwyNS4zLDUyLjgsMTguMSw1MC4xLDIwLjl6CgkgTTI1LjEsNTNjMCwwLDEuMy02LjMsMS41LTYuOGMyLjQsMCw1LjcsMy4yLDUuNyw1LjNDMjkuMiw1Mi4xLDI1LjEsNTMsMjUuMSw1M3oiLz4KPC9zdmc+Cg==</data>
+				</icon-dark>
+				<icon-white>
+					<url>https://prod.cms.d2cfarm.com/img/content-creator-white.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTUwLjEsMjAuOUwyNS41LDQ1LjRsLTIuMyw4LjlsLTAuMSwwLjFsMCwwbDAsMGwwLjEtMC4xbDkuNS0xLjdMNTcuMiwyOEM2MCwyNS4zLDUyLjgsMTguMSw1MC4xLDIwLjl6CgkgTTI1LjEsNTNjMCwwLDEuMy02LjMsMS41LTYuOGMyLjQsMCw1LjcsMy4yLDUuNyw1LjNDMjkuMiw1Mi4xLDI1LjEsNTMsMjUuMSw1M3oiLz4KPC9zdmc+Cg==</data>
+				</icon-white>
+			</plugin>
+			<plugin>
+				<type>de.espirit.firstspirit.server.application.SiteArchitectApplicationPlugin</type>
+				<label>SiteArchitect</label>
+				<description>Project development</description>
+				<url>https://prod.cms.d2cfarm.com/start/FIRSTspirit.jnlp?app=client&amp;locale=en</url>
+				<icon-dark>
+					<url>https://prod.cms.d2cfarm.com/img/site-architect.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQjYxNjY4O30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjI4LjIsMjQuNSA0NS4yLDI0LjUgNDIuMSwyMS4zIDI1LDIxLjMgMjUsNTEuOSAyOC4yLDUxLjkgCSIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ2LjgsMjYuMWgtMTd2MzAuNkg1M1YzMi4yTDQ2LjgsMjYuMXogTTM3LjcsMzUuOWgxMS44VjM4SDM3LjdWMzUuOXogTTQxLDUyLjJoLTcuOXYtMi4xSDQxVjUyLjJ6CgkJIE00OS42LDQ3LjRIMzMuMXYtMi4xaDE2LjVWNDcuNHogTTQ5LjYsNDIuN0gzMy4xdi0yLjFoMTYuNVY0Mi43eiIvPgo8L2c+Cjwvc3ZnPgo=</data>
+				</icon-dark>
+				<icon-white>
+					<url>https://prod.cms.d2cfarm.com/img/site-architect-white.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjI4LjIsMjQuNSA0NS4yLDI0LjUgNDIuMSwyMS4zIDI1LDIxLjMgMjUsNTEuOSAyOC4yLDUxLjkgCSIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQ2LjgsMjYuMWgtMTd2MzAuNkg1M1YzMi4yTDQ2LjgsMjYuMXogTTM3LjcsMzUuOWgxMS44VjM4SDM3LjdWMzUuOXogTTQxLDUyLjJoLTcuOXYtMi4xSDQxVjUyLjJ6CgkJIE00OS42LDQ3LjRIMzMuMXYtMi4xaDE2LjVWNDcuNHogTTQ5LjYsNDIuN0gzMy4xdi0yLjFoMTYuNVY0Mi43eiIvPgo8L2c+Cjwvc3ZnPgo=</data>
+				</icon-white>
+			</plugin>
+		</primary>
+		<secondary>
+			<plugin>
+				<type>de.espirit.firstspirit.server.application.ServerMonitorApplicationPlugin</type>
+				<label>ServerMonitoring</label>
+				<description>System information</description>
+				<url>https://prod.cms.d2cfarm.com/jump?url=%2Ffs5webmon%2Findex.jsp%3Flocale%3Den</url>
+				<icon-dark>
+					<url>https://prod.cms.d2cfarm.com/img/server-monitoring.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQjYxNjY4O30KPC9zdHlsZT4KPGc+Cgk8cmVjdCB4PSIyNC44IiB5PSIzOSIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMTQuMiIvPgoJPHJlY3QgeD0iMzUuOSIgeT0iMjQuNyIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMjguNiIvPgoJPHJlY3QgeD0iNDcuMiIgeT0iMzQuOSIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMTguNCIvPgo8L2c+Cjwvc3ZnPgo=</data>
+				</icon-dark>
+				<icon-white>
+					<url>https://prod.cms.d2cfarm.com/img/server-monitoring-white.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8cmVjdCB4PSIyNC44IiB5PSIzOSIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMTQuMiIvPgoJPHJlY3QgeD0iMzUuOSIgeT0iMjQuNyIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMjguNiIvPgoJPHJlY3QgeD0iNDcuMiIgeT0iMzQuOSIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMTguNCIvPgo8L2c+Cjwvc3ZnPgo=</data>
+				</icon-white>
+			</plugin>
+			<plugin>
+				<type>de.espirit.firstspirit.server.application.ServerManagerApplicationPlugin</type>
+				<label>ServerManager</label>
+				<description>Administrative settings</description>
+				<url>https://prod.cms.d2cfarm.com/start/FIRSTspirit.jnlp?app=admin&amp;locale=en</url>
+				<icon-dark>
+					<url>https://prod.cms.d2cfarm.com/img/server-manager.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQjYxNjY4O30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTU1LjMsNDF2LTQuNWgtMy45Yy0wLjMtMS44LTEtMy41LTIuMS00LjlsMy4xLTMuMWwtMy4yLTMuMmwtMy4xLDMuMmMtMS40LTAuOS0zLTEuNi00LjctMS45di00aC00LjV2NAoJYy0xLjcsMC4zLTMuMiwwLjktNC42LDEuOWwtMy4xLTMuMUwyNiwyOC42bDMuMSwzLjFjLTEsMS41LTEuOCwzLjItMi4xLDVoLTQuM3Y0LjVIMjdjMC4zLDEuNywxLDMuMywxLjksNC43TDI2LDQ4LjhsMy4yLDMuMgoJbDIuOC0yLjhjMS40LDEsMy4xLDEuNyw0LjksMi4xdjQuMWg0LjV2LTQuMWMxLjYtMC4zLDMtMC45LDQuMy0xLjdsMywzbDMuMi0zLjJMNDksNDYuNWMxLjItMS41LDItMy4zLDIuMy01LjJoNFY0MXogTTM5LDQ2LjYKCWMtNC4zLDAtNy43LTMuNS03LjctNy43czMuNS03LjcsNy43LTcuN2M0LjMsMCw3LjcsMy41LDcuNyw3LjdTNDMuMyw0Ni42LDM5LDQ2LjZ6Ii8+Cjwvc3ZnPgo=</data>
+				</icon-dark>
+				<icon-white>
+					<url>https://prod.cms.d2cfarm.com/img/server-manager-white.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPHBhdGggY2xhc3M9InN0MCIgZD0iTTU1LjMsNDF2LTQuNWgtMy45Yy0wLjMtMS44LTEtMy41LTIuMS00LjlsMy4xLTMuMWwtMy4yLTMuMmwtMy4xLDMuMmMtMS40LTAuOS0zLTEuNi00LjctMS45di00aC00LjV2NAoJYy0xLjcsMC4zLTMuMiwwLjktNC42LDEuOWwtMy4xLTMuMUwyNiwyOC42bDMuMSwzLjFjLTEsMS41LTEuOCwzLjItMi4xLDVoLTQuM3Y0LjVIMjdjMC4zLDEuNywxLDMuMywxLjksNC43TDI2LDQ4LjhsMy4yLDMuMgoJbDIuOC0yLjhjMS40LDEsMy4xLDEuNyw0LjksMi4xdjQuMWg0LjV2LTQuMWMxLjYtMC4zLDMtMC45LDQuMy0xLjdsMywzbDMuMi0zLjJMNDksNDYuNWMxLjItMS41LDItMy4zLDIuMy01LjJoNFY0MXogTTM5LDQ2LjYKCWMtNC4zLDAtNy43LTMuNS03LjctNy43czMuNS03LjcsNy43LTcuN2M0LjMsMCw3LjcsMy41LDcuNyw3LjdTNDMuMyw0Ni42LDM5LDQ2LjZ6Ii8+Cjwvc3ZnPgo=</data>
+				</icon-white>
+			</plugin>
+			<plugin>
+				<type>de.espirit.firstspirit.server.application.HelpApplicationPlugin</type>
+				<label>Help</label>
+				<description/>
+				<url>https://prod.cms.d2cfarm.com/help/odfs/index_en.html</url>
+				<icon-dark>
+					<url>https://prod.cms.d2cfarm.com/img/documentation.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojQjYxNjY4O30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjQwLjYsMjkuNyA1NS41LDIzLjYgNTMuNiwyMi44IAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMzguNSwyOS43IDIzLjYsMjMuNiAyNS41LDIyLjggCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyMSwyNC44IDIxLDQ4LjEgMzguNSw1NC44IDM4LjUsMzEgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI1OC4xLDI0LjggNTguMSw0OC4xIDQwLjYsNTQuOCA0MC42LDMxIAkiLz4KPC9nPgo8L3N2Zz4K</data>
+				</icon-dark>
+				<icon-white>
+					<url>https://prod.cms.d2cfarm.com/img/documentation-white.svg</url>
+					<data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3OCA3OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzggNzg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjQwLjYsMjkuNyA1NS41LDIzLjYgNTMuNiwyMi44IAkiLz4KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMzguNSwyOS43IDIzLjYsMjMuNiAyNS41LDIyLjggCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyMSwyNC44IDIxLDQ4LjEgMzguNSw1NC44IDM4LjUsMzEgCSIvPgoJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI1OC4xLDI0LjggNTguMSw0OC4xIDQwLjYsNTQuOCA0MC42LDMxIAkiLz4KPC9nPgo8L3N2Zz4K</data>
+				</icon-white>
+			</plugin>
+		</secondary>
+	</plugins>
+	<connection>
+		<url>https://prod.cms.d2cfarm.com</url>
+		<host>prod.cms.d2cfarm.com</host>
+		<port>443</port>
+	</connection>
+	<cookies>
+	</cookies>
+	<resources>
+		<jre>
+			<version>11.0.5</version>
+			<crc>449186416</crc>
+			<sha-256>P54+QlbLLBtjtWhk3KJI1/QGh0sh6FnlrHunramJ7Os=</sha-256>
+			<size>41549607</size>
+			<url>https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/jre-win/jre-win.zip</url>
+		</jre>
+		<jre-mac>
+			<version>11.0.5</version>
+			<crc>705718338</crc>
+			<sha-256>39ISAjMh67QbzozO0VtGaAAehuz/a//dTyWRzKrkFWY=</sha-256>
+			<size>37886534</size>
+			<url>https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/jre-mac/jre-mac.tar.gz</url>
+		</jre-mac>
+		<jar>
+			<version>5.2.191208</version>
+			<crc>2755899544</crc>
+			<sha-256>/p8WRRDcgilBEGbHVQvWxUSeSrzeDKehyI+Oy/mXwag=</sha-256>
+			<size>62466330</size>
+			<url>https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/fs-client.jar</url>
+		</jar>
+		<policy>
+			<version>5.2.191208</version>
+			<crc>3959936545</crc>
+			<sha-256>vMeaS8Aj4HVKQBdyuweIVRChtQmYaNugUsP/VSZUAhw=</sha-256>
+			<size>51</size>
+			<url>https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/clientjar/fs-client.policy</url>
+		</policy>
+	</resources>
+	<launcher>
+		<updates-xml><![CDATA[<?xml version="1.0" encoding="UTF-8"?><updateDescriptor baseUrl="https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/launcher/">
+  <entry singleBundle="false" fileName="FSLauncher.exe" sha256="oNJAQ0Bh1kFiptAp+a9BqKDZgHccqsZK6tEkTIO40Ug=" bundledJre="windows-amd64-11.0.5.tar.gz" updatableVersionMin="" targetMediaFileId="128" archive="false" newMediaFileId="128" sha256Sum="a0d240434061d64162a6d029f9af41a8a0d980771caac64aead1244c83b8d148" updatableVersionMax="" fileSize="55349992" md5Sum="4fc5cae6343f091b016f48d34ef5d6d8" newVersion="1.0.29">
+    <comment language="en"/>
+    <comment language="fr"/>
+    <comment language="de"/>
+    <comment language="it"/>
+    <comment language="ru"/>
+    <comment language="es"/>
+  </entry>
+  <entry singleBundle="false" fileName="FSLauncher.rpm" sha256="34CIzx71YUWIQrpZIz2m/5NKVSE+Bx2PGMdzkwDkS9c=" bundledJre="" updatableVersionMin="" targetMediaFileId="659" archive="true" newMediaFileId="659" sha256Sum="df8088cf1ef561458842ba59233da6ff934a55213e071d8f18c7739300e44bd7" updatableVersionMax="" fileSize="3628145" md5Sum="1845e56956fdd2325b30cad48b32f206" newVersion="1.0.29">
+    <comment language="en"/>
+    <comment language="fr"/>
+    <comment language="de"/>
+    <comment language="it"/>
+    <comment language="ru"/>
+    <comment language="es"/>
+  </entry>
+  <entry singleBundle="false" fileName="FSLauncher.deb" sha256="DyS/Ygq03KrvznW0Jw77qJ9tG3iVyr0m5UZrNYjJD+g=" bundledJre="" updatableVersionMin="" targetMediaFileId="660" archive="true" newMediaFileId="660" sha256Sum="0f24bf620ab4dcaaefce75b4270efba89f6d1b7895cabd26e5466b3588c90fe8" updatableVersionMax="" fileSize="3621874" md5Sum="66564a4a606921604724ba0e910d9040" newVersion="1.0.29">
+    <comment language="en"/>
+    <comment language="fr"/>
+    <comment language="de"/>
+    <comment language="it"/>
+    <comment language="ru"/>
+    <comment language="es"/>
+  </entry>
+  <entry singleBundle="true" fileName="FSLauncher.dmg" sha256="KSgbNikwC9HR5fJieJSs5qcNvDp5y2ye14OOLXjoG60=" bundledJre="macos-amd64-11.0.5.tar.gz" updatableVersionMin="" targetMediaFileId="782" archive="false" newMediaFileId="782" sha256Sum="29281b3629300bd1d1e5f2627894ace6a70dbc3a79cb6c9ed7838e2d78e81bad" updatableVersionMax="" fileSize="52241624" md5Sum="498de7b457c340b811138353ff2deef6" newVersion="1.0.29">
+    <comment language="en"/>
+    <comment language="fr"/>
+    <comment language="de"/>
+    <comment language="it"/>
+    <comment language="ru"/>
+    <comment language="es"/>
+  </entry>
+  <entry singleBundle="false" fileName="FSLauncher.tar.gz" sha256="kQLCv3j8I1V2v3LXU2iIYocQNHpeA3Wgtz9j3IJP0Ao=" bundledJre="" updatableVersionMin="" targetMediaFileId="1046" archive="true" newMediaFileId="1046" sha256Sum="9102c2bf78fc235576bf72d7536888628710347a5e0375a0b73f63dc824fd00a" updatableVersionMax="" fileSize="3666540" md5Sum="4fc332ad712201d399112675a5f15fe4" newVersion="1.0.29">
+    <comment language="en"/>
+    <comment language="fr"/>
+    <comment language="de"/>
+    <comment language="it"/>
+    <comment language="ru"/>
+    <comment language="es"/>
+  </entry>
+</updateDescriptor>
+]]></updates-xml>
+	</launcher>
+	<parameter>
+		<class>de.espirit.firstspirit.client.Start</class>
+		<heap-size>2048m</heap-size>
+		<arguments>
+			<argument>FS-eJydl9tu20YQhl+lLyB6z4cKvBBiBREgy4UsI0URQGCotU2HIgmSsq1e9Nm7tMx0/4VRO77jp5l/ZnZ2Z0nNlsvt5/lsc72eX6U3Wdm56aflYr7abL9cXsy354t1+s9ZclO0Xd81RVv0W5mwNbWUxX7b2eLPd/suF6vr93tfzD692/fqcjlbL67e7f91sTq//Po//pfr+ZYSyljatwc3MiMRM4msacQCmFOLzBSy4MgK43EtI9bAghtkgfUKifGFjuwG65OcRIz5pMD6pYz8VcxYn9RRPoP1KIF2pbCfKlq/MphPR/VpKSJGvVaYT2secaS3UXyL6zNERoz+JqrPRPUYhWw55rciskuMZ03EFuqhhBBk9PesIzbIuH5K8XxRqsl4vYw/YAGMMmQR2XGBlOGBoszCgFDOIo7icYUFc8uwQEFwBYIIZDzhVPgTCAEkjiCNRoJKQyPGBDLaIkWxAyry13DEJOWAMkxmBA21RsN0WUXCTFaTUGsNA6uBk2iNIIBwb1lLwWrVy6ZvrrZUajVeogNqv4XjmRnYEM51yPznHTgimAXTJjALPk7QCe1Y5zNK6vsTiDUf5/uE2h/n/8xWWBmktpp678BsOJiNHYf7Bcd3g0fmBy+wDhhoPSrKQjTWhmhFGGoYwxAtCyMzosPIfoB4iFaEWu4bGiJDK6ciQCEhkZACrFqF6FsdOksGqBgsUP+8R07Igk30yG0Y2RASLtAfckCjwk5aoghg2Bz/vg/2nw2zB6iFBpRBKH+TBQfPo59EQMYAJaAlwYZSTiGyHwgLaMMyOFcS0IBWCLDKcH+H2xDyatRqC87GhqEEnFjqr5ZwRYJBJwUzgFKHkYWSYeuECffI94JSxFArKdWAGpARQB4MjrJm/NrI633Tuq4r6iplU1fl7bHpT3BXd33atPUuyfddsmP5TdbuEy+Y3mcP2eRhP8na2y79bTLJdrtJ3biq+5YOpuR71rmz56cyq26/pbPlcnK9Ws0u5ueveO9c96Ovm5Mge+wT9+Cq/ldUT0n3WFS3SVNmN0PyIv+wujtW/d1b6vuqHKXD42vu7qmp2x4a0h2qpHP5wX9tH5MsH7r8tnIs1Lc9yZqmdInzLXq/bkj6EUHS3bmy/DXZcxs/IHmj82+p++x76UA4Les8K13qKv90W1RpXhb+SJ0g6Yv8h+vTetc+7nt5IEVjRsuxcenFbLGa7rOnYl/87V5ecvt659Ivm80f06GUVAg+9YNx7/J+sUuln3D/Cpi27rbo+vbo/1b53J/9DtftcT3+6P0b1/aF66adax9K1/9VVy49mw4LGVbGdsmO705TeWjL9K7vm+73s7NXJ/DQuWf7s/u//a+lww==</argument>
+			<argument>mainClass=de.espirit.firstspirit.client.CMSExplorer</argument>
+		</arguments>
+	</parameter>
+	<jnlp>
+		<plain><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="https://prod.cms.d2cfarm.com/jnlp/3v2vjr78m38veq226op1n1hmn/">
+	<information>
+		<title>FirstSpirit SiteArchitect (a.krukowski@insignia.pl@prod.cms.d2cfarm.com)</title>
+		<vendor>e-Spirit AG</vendor>
+		<homepage href="http://www.e-spirit.com"/>
+		<description>FirstSpirit SiteArchitect (a.krukowski@insignia.pl@prod.cms.d2cfarm.com)</description>
+		<icon href="img/FSicon.gif"/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<application-desc main-class="de.espirit.firstspirit.client.Start">
+		<argument>FS-eJydl9tu20YQhl+lLyB6z4cKvBBiBREgy4UsI0URQGCotU2HIgmSsq1e9Nm7tMx0/4VRO77jp5l/ZnZ2Z0nNlsvt5/lsc72eX6U3Wdm56aflYr7abL9cXsy354t1+s9ZclO0Xd81RVv0W5mwNbWUxX7b2eLPd/suF6vr93tfzD692/fqcjlbL67e7f91sTq//Po//pfr+ZYSyljatwc3MiMRM4msacQCmFOLzBSy4MgK43EtI9bAghtkgfUKifGFjuwG65OcRIz5pMD6pYz8VcxYn9RRPoP1KIF2pbCfKlq/MphPR/VpKSJGvVaYT2secaS3UXyL6zNERoz+JqrPRPUYhWw55rciskuMZ03EFuqhhBBk9PesIzbIuH5K8XxRqsl4vYw/YAGMMmQR2XGBlOGBoszCgFDOIo7icYUFc8uwQEFwBYIIZDzhVPgTCAEkjiCNRoJKQyPGBDLaIkWxAyry13DEJOWAMkxmBA21RsN0WUXCTFaTUGsNA6uBk2iNIIBwb1lLwWrVy6ZvrrZUajVeogNqv4XjmRnYEM51yPznHTgimAXTJjALPk7QCe1Y5zNK6vsTiDUf5/uE2h/n/8xWWBmktpp678BsOJiNHYf7Bcd3g0fmBy+wDhhoPSrKQjTWhmhFGGoYwxAtCyMzosPIfoB4iFaEWu4bGiJDK6ciQCEhkZACrFqF6FsdOksGqBgsUP+8R07Igk30yG0Y2RASLtAfckCjwk5aoghg2Bz/vg/2nw2zB6iFBpRBKH+TBQfPo59EQMYAJaAlwYZSTiGyHwgLaMMyOFcS0IBWCLDKcH+H2xDyatRqC87GhqEEnFjqr5ZwRYJBJwUzgFKHkYWSYeuECffI94JSxFArKdWAGpARQB4MjrJm/NrI633Tuq4r6iplU1fl7bHpT3BXd33atPUuyfddsmP5TdbuEy+Y3mcP2eRhP8na2y79bTLJdrtJ3biq+5YOpuR71rmz56cyq26/pbPlcnK9Ws0u5ueveO9c96Ovm5Mge+wT9+Cq/ldUT0n3WFS3SVNmN0PyIv+wujtW/d1b6vuqHKXD42vu7qmp2x4a0h2qpHP5wX9tH5MsH7r8tnIs1Lc9yZqmdInzLXq/bkj6EUHS3bmy/DXZcxs/IHmj82+p++x76UA4Les8K13qKv90W1RpXhb+SJ0g6Yv8h+vTetc+7nt5IEVjRsuxcenFbLGa7rOnYl/87V5ecvt659Ivm80f06GUVAg+9YNx7/J+sUuln3D/Cpi27rbo+vbo/1b53J/9DtftcT3+6P0b1/aF66adax9K1/9VVy49mw4LGVbGdsmO705TeWjL9K7vm+73s7NXJ/DQuWf7s/u//a+lww==</argument>
+		<argument>mainClass=de.espirit.firstspirit.client.CMSExplorer</argument>
+	</application-desc>
+	<icon kind="splash" href="img/logo.gif"/>
+	<resources os="Windows">
+		<j2se version="1.9+" initial-heap-size="128m" max-heap-size="2048m" java-vm-args="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens=java.jnlp/javax.jnlp=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED --add-exports=java.desktop/com.apple.eawt=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED --add-exports=java.desktop/sun.swing=ALL-UNNAMED --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED" />
+		<j2se version="1.8" initial-heap-size="128m" max-heap-size="2048m"/>
+		<j2se version="1.7" initial-heap-size="128m" max-heap-size="2048m"/>
+		<jar href="fs-client.jar"/>
+		<property name="sun.java2d.d3d" value="false"/>
+	</resources>
+	<resources os="Linux">
+		<j2se version="1.9+" initial-heap-size="128m" max-heap-size="2048m" java-vm-args="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens=java.jnlp/javax.jnlp=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED --add-exports=java.desktop/com.apple.eawt=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED --add-exports=java.desktop/sun.swing=ALL-UNNAMED --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED" />
+		<j2se version="1.8" initial-heap-size="128m" max-heap-size="2048m"/>
+		<j2se version="1.7" initial-heap-size="128m" max-heap-size="2048m"/>
+		<jar href="fs-client.jar"/>
+	</resources>
+	<resources os="Mac\ OS\ X">
+		<j2se version="1.9+" initial-heap-size="128m" max-heap-size="2048m" java-vm-args="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens=java.jnlp/javax.jnlp=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED --add-exports=java.desktop/com.apple.eawt=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED --add-exports=java.desktop/sun.swing=ALL-UNNAMED --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED" />
+		<j2se version="1.8" initial-heap-size="128m" max-heap-size="2048m"/>
+		<j2se version="1.7" initial-heap-size="128m" max-heap-size="2048m"/>
+		<jar href="fs-client.jar"/>
+	</resources>
+	<resources>
+		<j2se version="1.9+" initial-heap-size="128m" max-heap-size="2048m" java-vm-args="--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.desktop/java.awt.event=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED --add-opens=java.jnlp/javax.jnlp=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED --add-exports=java.desktop/com.apple.eawt=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED --add-exports=java.desktop/sun.swing=ALL-UNNAMED --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED" />
+		<j2se version="1.8" initial-heap-size="128m" max-heap-size="2048m"/>
+		<j2se version="1.7" initial-heap-size="128m" max-heap-size="2048m"/>
+		<jar href="fs-client.jar"/>
+		<property name="sun.java2d.d3d" value="false"/>
+	</resources>
+</jnlp>
+]]></plain>
+	</jnlp>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZkRTNEE0uLx395/aWeTwl1d3rwhOeXJOhSLSitsfnFE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>DJX3e7/w/9S5XiK/Wx+080qBYWsoPceS4SZvXZrd+w+kCxThuaguvmn20u8+M7UMQcCb1lunNf/u&#13;
+ASLWEdYSuiR52DGrROCVpo8vYrNLg7n4P8uhGuMxaKgDatXIE0/ZB98Asex2+MZ28TALH+M0Npqw&#13;
+klYL+dI1FfeG1lt7tzSczMBgFkYO0WscAX2A6hsTsANcs7XOdgpQvs3u3uUEnmUlJ269ArojtFyG&#13;
+HDXtrhrQGRF/gjAJUTtOTsVX3pxLWPfgx2Kax0HOt7j2A/zrANPhIG7H+E31J2RdU1bSEdD69JAc&#13;
+nfiQmv38YdiMl1Kwsd9O4AtpvWrKZUPYq9dzjQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509SubjectName>CN=XML Security,OU=FirstSpirit,O=e-Spirit AG,L=Dortmund,ST=NRW,C=DE</ds:X509SubjectName><ds:X509Certificate>MIIDszCCApugAwIBAgIER7DpjTANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHDAaBgNV&#13;
+BAgTE05vcmRyaGVpbi1XZXN0ZmFsZW4xETAPBgNVBAcTCERvcnRtdW5kMRQwEgYDVQQKEwtlLVNw&#13;
+aXJpdCBBRzEUMBIGA1UECxMLRmlyc3RTcGlyaXQxFTATBgNVBAMTDEZTTGF1bmNoZXJDQTAeFw0x&#13;
+ODA1MjgwOTI3MDFaFw0yNjA1MjYwOTI3MDFaMHExCzAJBgNVBAYTAkRFMQwwCgYDVQQIEwNOUlcx&#13;
+ETAPBgNVBAcTCERvcnRtdW5kMRQwEgYDVQQKEwtlLVNwaXJpdCBBRzEUMBIGA1UECxMLRmlyc3RT&#13;
+cGlyaXQxFTATBgNVBAMTDFhNTCBTZWN1cml0eTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC&#13;
+ggEBAIXSKZCHuITUHxFo23x8vBiaHdhlbBqrqasuG5DKVYTlViPTKCU4SdGkVDdhM0WbRHrCRgMR&#13;
+/dFb0I3ujpRtqwpFcpsEpS+ewdA3YrxAeXkspL90fMlm7x7jGnJwKy0hXzT6iQRz9uzgddisRRQR&#13;
+TvT+jf5ivuJmy+LzGsAD+q0B/AjR50EQFnFIRkuci9Ub4hh25yGhFO7fnAGf/sc0vSVkAqcMm2RY&#13;
+9IJJVhKqKjMhq46g+wHP8pGKC4o3vz/VPwan2RzuLk5+2J+QOYNSE/Sb3+3mwDYFmyV7JuhgTKZm&#13;
+b7mXibqjypqg6VQT3LMiREltf227LF1FzTdDYs6kjq8CAwEAAaNCMEAwHwYDVR0jBBgwFoAUvqSe&#13;
+NdJvuO6bycz19kGTcso3GHgwHQYDVR0OBBYEFChExM3Qar4KcQaGbong/uY14QSbMA0GCSqGSIb3&#13;
+DQEBCwUAA4IBAQBTC+IMqrd+0mmrIsqIoUev5j+RTzVs2zo7BJS9/ROfOGpr/hFkSpW0j7fPJ1qP&#13;
+g6DshzRBbIMcsVmbK7gHZ2PQ1LSDb3jGJUN1NlijaU3Vg7Q3StQ/TwpdvEdq0B/JLQ0YHb6IFBBg&#13;
+D3qPz5MTHhqA5SaVkCR9DKczh3DKq9BsHKOjNxlJYqXNM3zwCx8DpaStRsy7vyuzlUsLdKHUz2iQ&#13;
+I4I4kCgpm2Q/l+5oTEUTpgegrzoLluiwY1DQSySfgiDeBBVnH/fAx6XqUblH3DTjFqTT6hOY01Fb&#13;
+bxu8wlL2pOrogAInKgMfSNZj5fbCPhzUY8r3HJFulo0bu4H1HGkc</ds:X509Certificate><ds:X509SubjectName>CN=FSLauncherCA,OU=FirstSpirit,O=e-Spirit AG,L=Dortmund,ST=Nordrhein-Westfalen,C=DE</ds:X509SubjectName><ds:X509Certificate>MIIDtzCCAp+gAwIBAgIEdTwfuzANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCREUxHDAaBgNV&#13;
+BAgTE05vcmRyaGVpbi1XZXN0ZmFsZW4xETAPBgNVBAcTCERvcnRtdW5kMRQwEgYDVQQKEwtlLVNw&#13;
+aXJpdCBBRzEUMBIGA1UECxMLRmlyc3RTcGlyaXQxFTATBgNVBAMTDEZTTGF1bmNoZXJDQTAeFw0x&#13;
+ODA1MjUxMDI4MDlaFw0zNDA1MjExMDI4MDlaMIGBMQswCQYDVQQGEwJERTEcMBoGA1UECBMTTm9y&#13;
+ZHJoZWluLVdlc3RmYWxlbjERMA8GA1UEBxMIRG9ydG11bmQxFDASBgNVBAoTC2UtU3Bpcml0IEFH&#13;
+MRQwEgYDVQQLEwtGaXJzdFNwaXJpdDEVMBMGA1UEAxMMRlNMYXVuY2hlckNBMIIBIjANBgkqhkiG&#13;
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFHl9WbmfeOl4wkr8RuNKUvsiHewoVnsfV8ZK7aJjTWz12gy&#13;
+/4w3aYiIl5wWIXQZHEI7YP4Qoio0e9djnrkS8s8Wx1cg9mMzTAwdmRHmiUK+zvxQIBBodqfO15cP&#13;
+2taSc/DJpEuLH/bs+UmQNa5feir3YF+TcPzv1WF0OiV9NREaihgglGyvA/gqFJHLyVBBTrlNn7e4&#13;
+wRYnFPAEVhnXWOAKjzfkp/XuS0ucPliSFbJzlHOiAOVXzdruTzQr6ZX66xVMXX0mgb/8qi9JzCrH&#13;
+UltrfPWIBDo2NArqzGVA/3p35eTSNMIw/ki8cFm9xFF95UnPSBRZx9t9WBpQbErDAwIDAQABozUw&#13;
+MzASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBS+pJ410m+47pvJzPX2QZNyyjcYeDANBgkq&#13;
+hkiG9w0BAQsFAAOCAQEAL1D4RjI3HNUMxSs2lw1uekUYsw3tvIukbxzklbkCd+Awv2j2IRhboeK7&#13;
+YAbEn4X2f3Z7PihHQIfAnEfqv8CkhyMJJdpFto08zOLoGZVhiKxpY2Fk0iBrzDW3cZREDJifYGml&#13;
+4pZcbsOvxlqA4kXYlx2LVIO+dKC3vXolR1Y2jVX2RM4iaurh9ZRt40aGT9GtcU5Ba97Xt6bbQQ83&#13;
+Wpj6xcOpHhyVEY2G0YLnQ3uLji90YDZXlAWlRjgDtVUC8esV/TLlJxVt7VH5cR16WHNVZLWQSQkh&#13;
+lgumTJzVUDiyZwV7VEm42ZT0XTU4lnRKjSyixKAdhIYAuTZuRoSvZDGM5g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></application>
